@@ -2,7 +2,6 @@
 <html>
     <head>
           <title> 2018 세계시장 진출전략 설명회 </title>
-          <link rel="stylesheet" href="{% static 'css/style.css' %}">
           <link rel="stylesheet" href="{% static 'css/table.css' %}">
           <link rel="stylesheet" type="text/css" "https://fonts.googleapis.com/css?family=Noto+Sans">
           <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=ko"></script>
@@ -39,9 +38,9 @@
 
           <div class="navigator">
               <ul>
-                <li> 메인 </li>
-                <li> 프로그램 </li>
-                <li> 오시는길 </li>
+                <li><a href='#m1'>ABOUT</li></a>
+                <li><a href='#m2'>프로그램</li></a>
+                <li><a href='#m3'>오시는길</li></a>
               </ul>
           </div>
 
@@ -52,7 +51,9 @@
             </div>
           </div>
 
-          <div class='about'>
+          <div class='summary'>
+            <div class='summary1'>
+              <div class='about'>
             <p> 세계 경제는 거센 변화의 흐름 속에 있습니다. <br>
                 전 세계적 보호무역주의의 흐름과 지속된 저성장으로 우리 경제는 불확실에 흔들리고 있습니다. <br>
                 그러나 지금이야말로 변화하는 세계 경제 환경에 대응하여 위기를 정확히 진단하고 <br>
@@ -60,6 +61,8 @@
                 이에 KOTRA는 세계 시장을 조망하고 지역별 이슈 점건을 통해 우리 기업의 글로벌 진출 전략 수립을 <br>
                 지원하기 위하여 2018 세계시장 진출전략 설명회를 2018년 1월 9일(화)에 개최합니다. <br>
                 해외시장의 변화를 선도하고 글로벌 비즈니스 기회를 확인하는 이 자리에 많은 분들의 참석을 부탁드립니다. <br></p>
+              </div>
+            </div>
           </div>
 
           <div class='button'>
@@ -72,7 +75,7 @@
           <div class='divide'>
             <div class='divide1'>
               <p>
-                <span class='title'> ABOUT </span> </p>
+                <span class='title' id='m1'> ABOUT </span> </p>
             </div>
           </div>
 
@@ -105,7 +108,7 @@
           <div class='divide'>
             <div class='divide1'>
               <p>
-                <span class='title'> PROGRAM </span> </p>
+                <span class='title' id='m2'> PROGRAM </span> </p>
             </div>
           </div>
           <div class='program'>
@@ -152,7 +155,7 @@
          <div class='divide'>
            <div class='divide1'>
              <p>
-               <span class='title'> LOCATION </span> </p>
+               <span class='title' id='m3'> LOCATION </span> </p>
            </div>
          </div>
          <div class='summary'>
@@ -160,5 +163,17 @@
              <div id="map_canvas" style="height: 400px;"></div>
            </div>
          </div>
+
+         <div style="height: 10px;"></div>
+
+          <div class='button'>
+             <div class='button1'>
+                  <a href="http://www.naver.com"><strong>일반참가신청</strong></a>
+                  <a href="http://www.naver.com"><strong>수출바우처기업 참가신청</strong></a>
+             </div>
+         </div>
+
+
+
        </body>
 </html>
