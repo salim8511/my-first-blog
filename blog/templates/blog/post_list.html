@@ -21,14 +21,29 @@
                       map: map,
                       title: "코엑스 인터콘티넨탈호텔"
             });
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h1 id="firstHeading" class="firstHeading">2018<br>세계시장 진출전략<br>설명회 장소</h1>'+
+                '<div id="bodyContent">'+
+                '<p><b>코엑스 인터콘티넨탈 호텔, 하모니볼룸</b><br> ' +
+                '서울시 강남구 봉은사로 540 <br>코엑스 인터콘티넨탈 호텔 지하1층<br>' +
+                '<a href="https://www.google.co.kr/maps/dir//인터컨티넨탈서울코엑스" target="_blank"><b>길찾기</b></a>'
+                '</p>'+
+                '</div>'+
+                '</div>';
+
             var infowindow = new google.maps.InfoWindow(
                     {
-                      content: "코엑스 인터콘티넨탈호텔",
+                      content: contentString,
                       maxWidth: 300
                     }
             );
 
-            google.maps.event.addListener(marker, 'click', function() {
+
+
+            google.maps.event.addListener(marker, 'mouseover', function() {
             infowindow.open(map, marker);
             });
             }
@@ -38,7 +53,7 @@
 
           <div class="navigator">
               <ul>
-                <li><a href='#m1'>ABOUT</li></a>
+                <li><a href='#m1' style="border-bottom:0;">ABOUT</li></a>
                 <li><a href='#m2'>프로그램</li></a>
                 <li><a href='#m3'>오시는길</li></a>
               </ul>
@@ -160,6 +175,8 @@
          </div>
          <div class='summary'>
            <div class='summary1'>
+             <div class='location'>
+               <p> 주소: 서울시 강남구 봉은사로 540 코엑스 인터콘티넨탈 호텔 </p>
              <div id="map_canvas" style="height: 400px;"></div>
            </div>
          </div>

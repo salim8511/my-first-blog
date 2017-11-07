@@ -29,12 +29,24 @@ body {
   padding: 20px 0;
 }
 
+
+.location p {
+  color: #1F1D38;
+  text-align: left;
+  line-height: 24px;
+  font-family: 'Noto sans', sans-serif;
+  font-size: medium;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+
 .navigator ul {
   margin: 0 auto;
   padding: 0;
   display: inline-block;
   float: right;
-  position: fixed;
+  position: absolute;
   right: 25%;
   top: 5%;
 }
