@@ -155,10 +155,11 @@ span.title {
     font-size: 24px;
     background-color: #fff;
     padding: 5px 40px 5px 40px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .divide1 p {
-  border-top: 2px solid #000;
+  border-top: 2px solid #ccc;
   line-height: 0.1em;
 }
 
@@ -178,7 +179,6 @@ span.title {
   display: block;
 }
 
-
 span.category1 {
   width: 90px;
   font-size: 18px;
@@ -194,7 +194,7 @@ span.space {
   display: inline-block;
   width: 1px;
   height: 6px;
-  border-left: 2px solid #1F1D38;
+  border-left: 2px solid #ccc;
   padding: 5px;
   top: 3px;
 }
@@ -216,5 +216,42 @@ span.category3 {
   left: 130px;
 }
 
+.program {
+  width: 90%;
+  margin: 20px auto;
+}
 
-/* Page elements */
+.program1 {
+  width: 70%;
+  margin: auto;
+}
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 1.5;
+}
+
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+
+table.type09 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+
+table.type09 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
