@@ -24,7 +24,7 @@ body {
   text-align: center;
   line-height: 24px;
   font-family: 'Noto sans', sans-serif;
-  font-size: 18px;
+  font-size: medium;
   font-weight: 400;
   padding: 20px 0;
 }
@@ -172,7 +172,7 @@ span.title {
 
 span.category1 {
   width: 90px;
-  font-size: 18px;
+  font-size: medium;
   color: #1F1D38;
   display: inline-block;
   position: relative;
@@ -191,7 +191,7 @@ span.space {
 }
 
 span.category2 {
-  font-size: 18px;
+  font-size: medium;
   color: #1F1D38;
   display: inline-block;
   position: relative;
@@ -199,7 +199,7 @@ span.category2 {
 }
 
 span.category3 {
-  font-size: 18px;
+  font-size: medium;
   color: #1F1D38;
   display: inline-block;
   position: relative;
@@ -227,7 +227,7 @@ table.type09 {
 table.type09 thead th {
     padding: 10px;
     font-weight: bold;
-    vertical-align: top;
+    vertical-align: middle;
     color: #369;
     border-bottom: 3px solid #036;
 }
@@ -236,7 +236,7 @@ table.type09 tbody th {
     width: 150px;
     padding: 10px;
     font-weight: bold;
-    vertical-align: top;
+    vertical-align: middle;
     border-bottom: 1px solid #ccc;
     background: #f3f6f7;
 }
@@ -244,6 +244,6 @@ table.type09 tbody th {
 table.type09 td {
     width: 350px;
     padding: 10px;
-    vertical-align: top;
+    vertical-align: middle;
     border-bottom: 1px solid #ccc;
 }
