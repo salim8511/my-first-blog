@@ -94,6 +94,7 @@ body {
   text-shadow: none;
   background-color: #1F1D38;
   color: white;
+  font-family: 'Noto sans', sans-serif;
 }
 
 .button1 a:hover{
@@ -107,6 +108,7 @@ body {
   background-color: #fff;
   border: 2px solid #1F1D38;
   color: #1F1D38;
+  font-family: 'Noto sans', sans-serif;
 }
 
 .header h1 {
@@ -210,6 +212,7 @@ span.category1 {
   position: relative;
   padding: 0 10px;
   top: 1px;
+  font-family: 'Noto sans', sans-serif;
 }
 
 span.space {
@@ -230,6 +233,7 @@ span.category2 {
   top: 1px;
   position: relative;
   white-space: pre-line;
+  font-family: 'Noto sans', sans-serif;
 }
 
 span.category3 {
@@ -240,6 +244,7 @@ span.category3 {
   position: relative;
   padding-top: 3px;
   left: 130px;
+  font-family: 'Noto sans', sans-serif;
 }
 
 .program {
@@ -266,6 +271,7 @@ table.type09 thead th {
     vertical-align: middle;
     color: #369;
     border-bottom: 3px solid #036;
+    font-family: 'Noto sans', sans-serif;
 }
 
 table.type09 thead td {
@@ -275,6 +281,7 @@ table.type09 thead td {
     vertical-align: middle;
     color: #369;
     border-bottom: 3px solid #036;
+    font-family: 'Noto sans', sans-serif;
 }
 
 table.type09 tbody th {
@@ -284,6 +291,7 @@ table.type09 tbody th {
     vertical-align: middle;
     border-bottom: 1px solid #ccc;
     background: #f3f6f7;
+    font-family: 'Noto sans', sans-serif;
 }
 
 table.type09 td {
@@ -291,4 +299,5 @@ table.type09 td {
     padding: 10px;
     vertical-align: middle;
     border-bottom: 1px solid #ccc;
+    font-family: 'Noto sans', sans-serif;
 }
