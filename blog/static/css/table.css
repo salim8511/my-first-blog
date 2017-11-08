@@ -1,4 +1,5 @@
 
+
 body {
   padding: 0;
   margin: 0;
@@ -13,8 +14,8 @@ body {
 
 /** Header styles **/
 .header {
-  background-color: #1F1D38;
-  height: 520px;
+  background-image: url('https://imgur.com/a/y7TVr');
+  height: 1000px;
   background-position: center;
   color: #fff;
 }
@@ -27,6 +28,7 @@ body {
   font-size: medium;
   font-weight: 400;
   padding: 20px 0;
+  word-break: keep-all;
 }
 
 
